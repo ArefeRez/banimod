@@ -1,0 +1,78 @@
+.navigation-general{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 8px 15px;
+    gap: 0.5rem;
+    background-color: #fff;
+    margin: 0 67px;
+}
+.for-user{
+    width: 35%;
+}
+.for-user img{
+    vertical-align: middle;
+}
+.button{
+    text-decoration: none;
+    font-family: iranyekanwebregular;
+    color: #fff;
+    background-color: #00bf6f;
+    padding: 12px 24px;
+    border-radius: 40px;
+    font-size: 0.9rem;
+    
+}
+.button:hover{
+    background-color: #009657;
+    transition: 1s;
+}
+#search-input{
+    width: 100%;
+    height: 40px;
+    background-color: #f3f3f3;
+    padding: 1px 40px 1px 2px;
+    border: none;
+    border-radius: 8px;
+    font-family: iranyekanwebmedium;
+    font-size: 1rem;
+    line-height: 40px;
+    color: #303030;
+    position: relative;
+    margin-right: 100px;
+}
+.logo{
+    text-align: left;
+    flex-basis: 25%;
+    padding-right: 80px;
+}
+.navigation-catrgories{
+    align-items: center;
+    background-color: #fff;
+}
+.navigation-catrgories ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+}
+.navigation-catrgories{
+    padding: 9px 0;
+    margin: 0 20px;
+}
+.navigation-catrgories a{
+    text-decoration: none;
+    color: #101010;
+    font-size: 1rem;
+    font-family: YekanBakhMedium;
+    padding: 0 16px;
+}
+#border-left{
+    border-left: 1px solid #ededed;
+    margin: 0 0 0 32px;
+}
+#hamburger{
+    vertical-align: middle;
+}
+#border-bottom:hover{
+    border-bottom: 2px solid #00bf6f;
+}
