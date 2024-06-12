@@ -1,3 +1,8 @@
+*{margin: 0;padding: 0;}
+header{
+    width: 1360px;
+    margin: 0 auto;
+}
 .navigation-general{
     display: flex;
     align-items: center;
@@ -21,6 +26,7 @@
     padding: 12px 24px;
     border-radius: 40px;
     font-size: 0.9rem;
+    padding-left: 30px;
     
 }
 .button:hover{
@@ -57,7 +63,7 @@
 }
 .navigation-catrgories{
     padding: 9px 0;
-    margin: 0 20px;
+    margin: 0 67px;
 }
 .navigation-catrgories a{
     text-decoration: none;
@@ -75,4 +81,60 @@
 }
 #border-bottom:hover{
     border-bottom: 2px solid #00bf6f;
+}
+.icon{
+    display: flex;
+    display: none;
+}
+.icon img{
+    width: 40px;
+    height: 40px;
+}
+@media (max-width:1200px){
+    navigation-general{
+        width: 1000px;
+        margin: auto;
+    }
+    .logo{
+        margin-left: 67px;
+    }
+    #search-input{
+        width: 60%;
+    }
+    .for-user{
+        width: 400px;
+    }
+}
+@media (max-width:990px){
+    header{
+        width: auto;
+    }
+    #search-input{
+        width: 321px;
+        margin-right: 10px;
+    }
+    .logo{
+        margin-left: 10px;
+    }
+    .for-user{
+        display: none;
+    }
+}
+@media (max-width:770px){
+    #search-input{
+        display: none;
+    }
+    .icon{
+        display: block;
+    }
+    .navigation-general{
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+    .navigation-catrgories{
+        display: none;
+    }
+
 }
