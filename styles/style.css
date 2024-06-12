@@ -75,12 +75,17 @@ header{
 #border-left{
     border-left: 1px solid #ededed;
     margin: 0 0 0 32px;
+    height: 22px;
 }
 #hamburger{
     vertical-align: middle;
+    margin-right: 15px;
 }
 #border-bottom:hover{
     border-bottom: 2px solid #00bf6f;
+}
+#border-bottom{
+    margin-right: -15px;
 }
 .icon{
     display: flex;
@@ -89,6 +94,43 @@ header{
 .icon img{
     width: 40px;
     height: 40px;
+}
+.product-menu{
+    background-color: #fff;
+    display: none;
+    position: relative;
+}
+.product-menu ul{
+    position: absolute;
+    top: 0;
+    left: -12px;
+    display: flex;
+    flex-direction: column;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 0 0 8px 8px;
+}
+.menu-hover:hover .product-menu{
+    display: block;
+}
+.product-menu li{
+    font-size: 0.8rem;
+    font-family: YekanBakhMedium;
+    line-height: 45px;
+}
+.product-menu li:hover{
+    background-color: #ededed;
+    transition: 0.4s;
+}
+.product-menu a:hover{
+    color: #00ca76;
+}
+.product-menu a{
+    color: #303030;
+}
+.product-menu img{
+    width: 20px;
+    height: 20px;
+    
 }
 @media (max-width:1200px){
     navigation-general{
