@@ -2,6 +2,13 @@
 header{
     margin: 0 auto;
 }
+.first-img img{
+    width: 100%;
+    height: 60px;
+    /* background-size: auto 60px;
+    background-position: center;
+    background-repeat: no-repeat; */
+}
 .navigation-general{
     display: flex;
     align-items: center;
@@ -311,9 +318,66 @@ section{
 #right-arrow4{
     margin-left: 20px;
 }
+.carts-first{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.carts-first img{
+    width: 100%;
+    border-radius: 8px;
+}
+.cart{
+    margin-left: 20px;
+}
+.carts-first div{
+    flex: 1;
+    border-radius: 8px;
+    background-color: #ffffff;
+}
+.carts-first div:hover{
+    transform: scale(1.1 ,1.1);
+    transition: 1s;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.box-timer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.timer-title div{
+    background-color: #f16423;
+    color: #fff;
+    width: 45px;
+    height: 45px;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 0 10px;
+    
 
-
-
+}
+#point{
+    font-size: 1.8rem;
+    color: #f16423;
+}
+.box-timer img{
+    width: 40%;
+}
+.box-timer div{
+    width: 50%;
+}
+.timer-title{
+    display: flex;
+    margin-right: 20px;
+    align-items: baseline;
+}
+#timer-text{
+    font-size: 1.1rem;
+    font-family: iranyekanwebmedium;
+    color: #27af6e;
+    width: 50rem;
+}
 
 
 
@@ -323,10 +387,6 @@ section{
     }
     .navigation-catrgories{
         width: 990px;
-        /* margin: auto; */
-    }
-    .logo{
-        /* margin-left: 67px; */
     }
     #search-input{
         width: 60%;
@@ -344,6 +404,9 @@ section{
     }
     .banner-left{
         position: relative;
+    }
+    .carts-first{
+        width: 990px;
     }
 }
 @media (max-width:990px){
@@ -363,6 +426,13 @@ section{
     section{
         width: 100%;
         margin-top: 30px;
+    }
+    .first-img{
+        display: none;
+    }
+    .carts-first{
+        display: grid;
+        grid-template-columns: repeat(3 ,1fr);
     }
     
 }
@@ -395,6 +465,13 @@ section{
     .banner1 , .banner2{
         display: flex;
         flex-direction: column;
+    }
+    .first-img{
+        display: none;
+    }
+    .carts-first{
+        display: grid;
+        grid-template-columns: repeat(2 ,1fr);
     }
 
 }
