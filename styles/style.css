@@ -1,6 +1,5 @@
 *{margin: 0;padding: 0;}
 header{
-    width: 1360px;
     margin: 0 auto;
 }
 .navigation-general{
@@ -13,7 +12,7 @@ header{
     margin: 0 67px;
 }
 .for-user{
-    width: 35%;
+    width: 40%;
 }
 .for-user img{
     vertical-align: middle;
@@ -48,8 +47,6 @@ header{
     margin-right: 100px;
 }
 .logo{
-    text-align: left;
-    flex-basis: 25%;
     padding-right: 80px;
 }
 .navigation-catrgories{
@@ -134,31 +131,33 @@ header{
     height: 20px;
     
 }
+section{
+    margin: 0 67px 0 67px;
+}
 .banner1{
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
+    gap: 30px;
 }
 .banner-right{
-    width: 783px;
-    height: 379px;
-    margin-right: 67px;
+    flex: 2;
     position: relative;
     z-index: 1;
 }
 .banner-left{
-    width: 376px;
-    height: 376px;
-    margin-left: 67px;
+    flex: 1;
     position: relative;
 }
 .img1{
     width: 100%;
     border-radius: 16px;
+    height: 100%;
 }
 .img2{
     width: 100%;
     border-radius: 16px;
+    height: 100%;
 }
 .arrow{
     display: flex;
@@ -228,26 +227,25 @@ header{
     display: flex;
     justify-content: space-between;
     margin-top: 40px;
+    gap: 30px;
 }
 .banner-right2{
-    width: 376px;
-    height: 376px;
-    margin-right: 67px;
+    flex: 1;
     position: relative;
 }
 .banner-left2{
-    width: 783px;
-    height: 379px;
-    margin-left: 67px;
+    flex: 2;
     position: relative;
 }
 .img3{
     width: 100%;
     border-radius: 16px;
+    height: 100%;
 }
 .img4{
     width: 100%;
     border-radius: 16px;
+    height: 100%;
 }
 .arrow3{
     display: flex;
@@ -321,17 +319,31 @@ header{
 
 @media (max-width:1200px){
     .navigation-general{
-        width: 1000px;
-        margin: auto;
+        width: 990px;
+    }
+    .navigation-catrgories{
+        width: 990px;
+        /* margin: auto; */
     }
     .logo{
-        margin-left: 67px;
+        /* margin-left: 67px; */
     }
     #search-input{
         width: 60%;
     }
     .for-user{
         width: 400px;
+    }
+    section{
+        width: 990px;
+        margin-top: 30px;
+    }
+    .banner-right{
+        position: relative;
+        z-index: 1;
+    }
+    .banner-left{
+        position: relative;
     }
 }
 @media (max-width:990px){
@@ -348,6 +360,11 @@ header{
     .for-user{
         display: none;
     }
+    section{
+        width: 100%;
+        margin-top: 30px;
+    }
+    
 }
 @media (max-width:770px){
     #search-input{
@@ -361,9 +378,23 @@ header{
         top: 0;
         left: 0;
         right: 0;
+        z-index: 100;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .navigation-general{
+        width: auto;
     }
     .navigation-catrgories{
         display: none;
+    }
+    section{
+        margin-top: 90px;
+        margin-right: 10px;
+    }
+    .banner1 , .banner2{
+        display: flex;
+        flex-direction: column;
     }
 
 }

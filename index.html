@@ -1,120 +1,191 @@
 <!DOCTYPE html>
 <html lang="fa" dir="rtl">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>مرکز خرید آنلاین بانی مد</title>
-    <link rel="shortcut icon" href="./img/banibons.png">
-    <link rel="stylesheet" href="./styles/fonts.css">
-    <link rel="stylesheet" href="./styles/style.css">
-</head>
-<body>
+    <link rel="shortcut icon" href="./img/banibons.png" />
+    <link rel="stylesheet" href="./styles/fonts.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
     <header>
-        <div class="navigation-general">
-            <div class="icon">
-                <a href="#"><img src="./img/heart-svgrepo-com.svg" alt=""></a>
-                <a href="#"><img src="./img/search-svgrepo-com.svg" alt=""></a>
-            </div>
-            <div class="for-user">
-                <a href="#"><img src="./img/cart-new.svg" alt=""></a>
-                <a href="#" class="button">ورود / ثبت نام</a>
-            </div>
-                <input type="text" name="q" id="search-input"  placeholder="جستجو میان هزاران کالا..." autocomplete="off">
-            <div class="logo"><a href="#"><img src="./img/banilogo.svg" alt=""></a></div>
+      <div class="navigation-general">
+        <div class="icon">
+          <a href="#"><img src="./img/heart-svgrepo-com.svg" alt="" /></a>
+          <a href="#"><img src="./img/search-svgrepo-com.svg" alt="" /></a>
         </div>
-        <nav>
-            <div class="navigation-catrgories">
+        <div class="for-user">
+          <a href="#"><img src="./img/cart-new.svg" alt="" /></a>
+          <a href="#" class="button">ورود / ثبت نام</a>
+        </div>
+        <input
+          type="text"
+          name="q"
+          id="search-input"
+          placeholder="جستجو میان هزاران کالا..."
+          autocomplete="off"
+        />
+        <div class="logo">
+          <a href="#"><img src="./img/banilogo.svg" alt="" /></a>
+        </div>
+      </div>
+      <nav>
+        <div class="navigation-catrgories">
+          <ul>
+            <li class="menu-hover">
+              <img src="./img/hamburger.svg" alt="" id="hamburger" />
+              <a href="#" id="border-bottom"> دسته بندی کالاها</a>
+              <div class="product-menu">
                 <ul>
-                    <li class="menu-hover">
-                        <img src="./img/hamburger.svg" alt="" id="hamburger">
-                        <a href="#" id="border-bottom">
-                        دسته بندی کالاها</a>
-                        <div class="product-menu">
-                            <ul>
-                                <li><a href="#">
-                                    <img src="./img/1.svg" alt="">
-                                    مد و پوشاک
-                                </a></li>
-                                <li><a href="#">
-                                    <img src="./img/2.svg" alt="">
-                                    زیبایی و سلامت
-                                </a></li>
-                                <li><a href="#">
-                                    <img src="./img/3.svg" alt="">
-                                    ساعت وطلا
-                                </a></li>
-                                <li><a href="#">
-                                    <img src="./img/bike.svg" alt="">
-                                    ورزش و سفر
-                                </a></li>
-                                <li><a href="#">
-                                    <img src="./img/5.svg" alt="">
-                                    لوازم خانه
-                                </a></li>
-                                <li><a href="#">
-                                    <img src="./img/6.svg" alt="">
-                                     کالای دیجیتال
-                                </a></li>
-                                <li><a href="#">
-                                    <img src="./img/7.svg" alt="">
-                                    کودک وسرگرمی
-                                </a></li>
-                                <li><a href="#">
-                                    <img src="./img/8.svg" alt="">
-                                    لوازم تحریر
-                                </a></li>
-                                <li><a href="#">
-                                    <img src="./img/9.svg" alt="">
-                                    خانه مد
-                                </a></li>
-                                <li><a href="#">
-                                    <img src="./img/star.svg" alt="">
-                                    جدیدترین ها
-                                </a></li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li><a href="#">شگفت انگیز</a></li>
-                    <li><a href="#">اوتلت</a></li>
-                    <li id="border-left"><a href="#"></a></li>
-                    <li><a href="#">برند ها</a></li>
-                    <li><a href="#">کارتِ هدیه</a></li>
-                    <li><a href="#">بانی مگ</a></li>
+                  <li>
+                    <a href="#">
+                      <img src="./img/1.svg" alt="" />
+                      مد و پوشاک
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img src="./img/2.svg" alt="" />
+                      زیبایی و سلامت
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img src="./img/3.svg" alt="" />
+                      ساعت وطلا
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img src="./img/bike.svg" alt="" />
+                      ورزش و سفر
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img src="./img/5.svg" alt="" />
+                      لوازم خانه
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img src="./img/6.svg" alt="" />
+                      کالای دیجیتال
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img src="./img/7.svg" alt="" />
+                      کودک وسرگرمی
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img src="./img/8.svg" alt="" />
+                      لوازم تحریر
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img src="./img/9.svg" alt="" />
+                      خانه مد
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img src="./img/star.svg" alt="" />
+                      جدیدترین ها
+                    </a>
+                  </li>
                 </ul>
-            </div>
-        </nav>
+              </div>
+            </li>
+            <li><a href="#">شگفت انگیز</a></li>
+            <li><a href="#">اوتلت</a></li>
+            <li id="border-left"><a href="#"></a></li>
+            <li><a href="#">برند ها</a></li>
+            <li><a href="#">کارتِ هدیه</a></li>
+            <li><a href="#">بانی مگ</a></li>
+          </ul>
+        </div>
+      </nav>
     </header>
     <main>
-        <section>
-            <div class="banner1">
-                <div class="banner-right"><a href="#"><img class="img1" src="./img/1717927425.jpg" alt=""></a>
-                    <div class="arrow">
-                        <div id="right-arrow"><a href="#"><img src="./img/right-arrow-backup-2-svgrepo-com.svg" alt=""></a></div>
-                    <div><a href="#"><img src="./img/left-arrow-backup-2-svgrepo-com.svg" alt=""></a></div>
-                    </div>
-                </div>
-                <div class="banner-left"><a href="#"><img class="img2" src="./img/1717931594.jpg" alt=""></a>
-                    <div class="arrow2">
-                        <div id="right-arrow2"><a href="#"><img src="./img/right-arrow-backup-2-svgrepo-com.svg" alt=""></a></div>
-                    <div><a href="#"><img src="./img/left-arrow-backup-2-svgrepo-com.svg" alt=""></a></div>
-                    </div>
-                </div>
+      <section>
+        <div class="banner1">
+          <div class="banner-right">
+            <a href="#"
+              ><img class="img1" src="./img/1717927425.jpg" alt=""
+            /></a>
+            <div class="arrow">
+              <div id="right-arrow">
+                <a href="#"
+                  ><img src="./img/right-arrow-backup-2-svgrepo-com.svg" alt=""
+                /></a>
+              </div>
+              <div>
+                <a href="#"
+                  ><img src="./img/left-arrow-backup-2-svgrepo-com.svg" alt=""
+                /></a>
+              </div>
             </div>
-            <div class="banner2">
-                <div class="banner-right2"><a href="#"><img class="img3" src="./img/1717931745.jpg" alt=""></a>
-                    <div class="arrow3">
-                        <div id="right-arrow3"><a href="#"><img src="./img/right-arrow-backup-2-svgrepo-com.svg" alt=""></a></div>
-                    <div><a href="#"><img src="./img/left-arrow-backup-2-svgrepo-com.svg" alt=""></a></div>
-                    </div>
-                </div>
-                <div class="banner-left2"><a href="#"><img class="img4" src="./img/1717932006.jpg" alt=""></a>
-                    <div class="arrow4">
-                        <div id="right-arrow4"><a href="#"><img src="./img/right-arrow-backup-2-svgrepo-com.svg" alt=""></a></div>
-                    <div><a href="#"><img src="./img/left-arrow-backup-2-svgrepo-com.svg" alt=""></a></div>
-                    </div>
-                </div>
+          </div>
+          <div class="banner-left">
+            <a href="#"
+              ><img class="img2" src="./img/1717931594.jpg" alt=""
+            /></a>
+            <div class="arrow2">
+              <div id="right-arrow2">
+                <a href="#"
+                  ><img src="./img/right-arrow-backup-2-svgrepo-com.svg" alt=""
+                /></a>
+              </div>
+              <div>
+                <a href="#"
+                  ><img src="./img/left-arrow-backup-2-svgrepo-com.svg" alt=""
+                /></a>
+              </div>
             </div>
-        </section>
+          </div>
+        </div>
+        <div class="banner2">
+          <div class="banner-right2">
+            <a href="#"
+              ><img class="img3" src="./img/1717931745.jpg" alt=""
+            /></a>
+            <div class="arrow3">
+              <div id="right-arrow3">
+                <a href="#"
+                  ><img src="./img/right-arrow-backup-2-svgrepo-com.svg" alt=""
+                /></a>
+              </div>
+              <div>
+                <a href="#"
+                  ><img src="./img/left-arrow-backup-2-svgrepo-com.svg" alt=""
+                /></a>
+              </div>
+            </div>
+          </div>
+          <div class="banner-left2">
+            <a href="#"
+              ><img class="img4" src="./img/1717932006.jpg" alt=""
+            /></a>
+            <div class="arrow4">
+              <div id="right-arrow4">
+                <a href="#"
+                  ><img src="./img/right-arrow-backup-2-svgrepo-com.svg" alt=""
+                /></a>
+              </div>
+              <div>
+                <a href="#"
+                  ><img src="./img/left-arrow-backup-2-svgrepo-com.svg" alt=""
+                /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
-</body>
+  </body>
 </html>
