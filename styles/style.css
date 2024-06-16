@@ -526,6 +526,41 @@ section{
     display: flex;
     justify-content: center;
 }
+.feature-box{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px; 
+    margin-top: 40px;
+    z-index: 2;
+}
+.feature-box:hover{
+    background-image: url(../img/featurebg.png);
+    z-index: 1;
+}
+.feature-box div{
+    flex: 1;
+    height: auto;
+}
+#feature-box-img{
+    width: auto;
+    height: 100px;
+    margin-right: 90px;
+}
+.feature-box a{
+    text-decoration: none;
+    color: #666;   
+}
+.feature-box h3{
+    font-size: 1.2rem;
+    font-family: iranyekanwebregular;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.feature-box a p{
+    font-size: 0.8rem;
+    font-family: iranyekanwebmedium;
+    text-align: center;
+}
 @media (max-width:1200px){
     .navigation-general{
         width: 990px;
