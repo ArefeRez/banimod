@@ -444,9 +444,9 @@ section{
     border-radius: 28px;
     color: #00bf6f;
     font-size: 18px;
-    width: 25%;
+    width: 23%;
     padding: 10px 0;
-    margin: 30px auto;
+    margin: 30px auto 50px auto;
 }
 .see-all:hover{
     border: 1px solid #00bf6f;
@@ -532,7 +532,6 @@ section{
     gap: 60px; 
     margin-top: 40px; 
 }
-
 /* .feature-box:hover{
     background-image: url(../img/featurebg.png);
     background-repeat: no-repeat;
@@ -572,8 +571,6 @@ section{
     width: 100%;
     display: inline-block;
     margin-top: 80px;
-    margin-right: -67px;
-    margin-left: -67px;
 }
 .topbrands-arrow{
     width: 1.5rem;
@@ -588,11 +585,49 @@ section{
     text-align: center;
     font-family: iranyekanwebregular;
     margin-top: 50px;
-    margin-bottom: 1.5rem;
-    
+    margin-bottom: 1.5rem; 
 }
 .topbrands img{
     border-radius: 10px;
+}
+.baniblog-img{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.baniblog-img img{
+    width: 265px;
+    margin-bottom: 20px;
+}
+.baniblog-title{
+    width: 100%;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    font-family: iranyekanwebregular;
+    margin-top: 50px;
+    margin-bottom: 1.5rem; 
+}
+.baniblog-img a:hover p{
+    color: #27af6e;
+    transition: 0.2s;
+}
+#baniblog-arrow{
+    position: relative;
+}
+#baniblog-arrow img{
+    width: 1.5rem;
+    height: 1.5rem;
+    position: absolute;
+    bottom: 100px;
+}
+.baniblog a{
+    text-decoration: none;
+    color: #000;
+    text-align: right;
+    width: 100%;
+    font-size: 0.9rem;
+    font-family: iranyekanwebmedium;
 }
 @media (max-width:1200px){
     .navigation-general{
@@ -636,6 +671,9 @@ section{
     .feature-box{
         width: 990px;
     }
+    .topbrands{
+        width: 990px;
+    }
 }
 @media (max-width:990px){
     header{
@@ -676,6 +714,9 @@ section{
     .feature-box{
         width: auto;
     }
+    .topbrands{
+        width: auto;
+    }
     
 }
 @media (max-width:770px){
@@ -714,9 +755,10 @@ section{
     .carts-first{
         display: grid;
         grid-template-columns: repeat(2 ,1fr);
-        width: 46rem;
-        height: 46rem;
-
+        width: 40rem;
+        height: 40rem;
+        margin: 0 auto;
+ 
     }
     .box-timer{
         margin-top: 350px;
@@ -743,6 +785,17 @@ section{
     }
     .feature-box{
         display: none;
+    }
+    .topbrands {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 30px;
+    }
+    .see-all{
+        display: none;
+    }
+    .brands{
+        margin-bottom: 40px;
     }
 
 }
