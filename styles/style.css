@@ -629,6 +629,74 @@ section{
     font-size: 0.9rem;
     font-family: iranyekanwebmedium;
 }
+.newsletter{
+    background-color: #f8f8f8;
+    background-image: url(../img/newsletter\ \(1\).svg);
+    background-position: left top;
+    background-repeat: no-repeat;
+    margin: 40px 67px 75px 67px;
+    padding-top: 75px;
+    /* border-bottom: 1px solid #dfe1df; */
+}
+.newsletter h2{
+    font-size: 25px;
+    text-align: center;
+    font-weight: 500;
+    font-family: iranyekanwebmedium;
+}
+.newsletter p{
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    font-family: iranyekanwebregular;
+    margin-top: 10px;
+}
+.newsletter-form{
+    display: flex;
+    gap: 20px;
+    background-color: #ffffff;
+    width: 50%;
+    margin: 60px auto;
+    border-radius: 30px 30px 0 0;
+
+}
+.newsletter-form input {
+    font-size: 14px;
+    font-weight: 500;
+    background-color: rgba(238, 238, 238, .9333333333);
+    color: #b3b3b3;
+    line-height: 52px;
+    width: 450px;
+    border: 0;
+    border-radius: 40px;
+    padding: 1px 40px 1px 2px;
+    font-family: iranyekanwebmedium;
+    margin-top: 15px;
+    margin-right: 15px;
+    margin-bottom: -20px;
+}
+.newsletter-form button {
+    width: 140px;
+    line-height: 52px;
+    background-color: #00bf6f;
+    color: #fff;
+    border-radius: 30px;
+    padding: 0 20px;
+    border: 0;
+    font-size: 1rem;
+    font-family: iranyekanwebregular;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-bottom: -20px;
+
+}
+.newsletter-form button img{
+    width: 17px;
+    font-weight: 500;
+    color: #ffffff;
+    margin-right: 20px;
+
+}
 @media (max-width:1200px){
     .navigation-general{
         width: 990px;
@@ -674,6 +742,12 @@ section{
     .topbrands{
         width: 990px;
     }
+    .baniblog{
+        width: 990px;
+    }
+    .newsletter{
+        width: 990px;
+    }
 }
 @media (max-width:990px){
     header{
@@ -717,7 +791,12 @@ section{
     .topbrands{
         width: auto;
     }
-    
+    .baniblog{
+        width: auto;
+    }
+    .newsletter{
+        width: auto;
+    }
 }
 @media (max-width:770px){
     #search-input{
@@ -796,6 +875,15 @@ section{
     }
     .brands{
         margin-bottom: 40px;
+    }
+    #baniblog1{
+        display: none;
+    }
+    .baniblog img{
+        flex: 1;
+    }
+    .newsletter{
+        display: none;
     }
 
 }
