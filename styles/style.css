@@ -732,6 +732,11 @@ footer{
     font-family: YekanBakhMedium;
     color: #000;
 }
+.footer-links a:hover{
+    color: #00ca76;
+    transition: 0.3s;
+    border-bottom: 1px solid #00ca76;
+}
 .footer-links li{
     padding: 6px 0;
 }
@@ -789,8 +794,50 @@ footer{
     margin: 20px auto auto 0;
     width: 100%;
 }
-
-
+#social-media:hover{
+    color: #00bf6f;
+}
+.footer-about{
+    margin-right: 67px;
+    margin-left: 67px;
+}
+#footer-about1{
+    margin-top: 30px;
+    font-family: iranyekanwebmedium;
+    font-size: 0.9rem;
+    color: gray;  
+}
+#footer-about2{
+    margin-top: 15px;
+    font-family: YekanBakhBold;
+    font-size: 2.5rem;
+    color: #000;  
+}
+#footer-about3{
+    margin-top: 10px;
+    font-family: iranyekanwebmedium;
+    font-size: 0.8rem;
+    color: #80858C;
+    font-weight: 300; 
+    line-height: 32px;
+}
+.footer-about a{
+    text-decoration: none;
+    color: #00bf6f;
+    font-family: iranyekanwebmedium;
+    font-size: 0.8rem;
+    margin-top: 13px;
+}
+.footer-namad{
+    display: flex;
+    justify-content: center;
+}
+.footer-namad img{
+    width: 6rem;
+    margin:  0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 
 
 
