@@ -695,8 +695,107 @@ section{
     font-weight: 500;
     color: #ffffff;
     margin-right: 20px;
+    vertical-align: middle;
 
 }
+footer{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 67px;
+    margin-right: 67px;
+    margin-top: 50px;
+    padding-bottom: 30px;
+    border-top: 1px solid #e0e4e7;
+    border-bottom: 1px solid #e0e4e7;
+    padding-top: 50px;
+}
+.footer-links{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.footer-links p{
+    font-size: 1rem;
+    font-family: iranyekanwebmedium;
+    color: gray;
+    margin-bottom: 20px;
+}
+#footer-p{
+    font-size: 0.7rem;
+    margin-top: 10px;
+}
+.footer-links ul{
+    list-style: none;
+}
+.footer-links a{
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-family: YekanBakhMedium;
+    color: #000;
+}
+.footer-links li{
+    padding: 6px 0;
+}
+.footer-links img{
+    width: 150px;
+}
+#footer-li{
+    color: gray;
+}
+#footer-logo{
+    margin-bottom: 10px;
+    width: 90%;
+}
+#footer-btn1{
+    width: 100%;
+    margin: 48px auto 0 0;
+    font-size: 1rem;
+    background-image: linear-gradient(to left, #01ad65 , #28bd75);
+    padding: 9px 10px;
+    border-radius: 12px;
+}
+#footer-btn1 a{
+    color: #fff;
+    text-decoration: none;
+    font-family: iranyekanwebmedium;
+    font-size: 0.8rem;
+    margin-right: 20px;
+}
+#footer-btn1 img{
+    font-size: 0.6rem;
+    vertical-align: middle;
+}
+#footer-btn2{
+    width: 100%;
+    font-size: 1rem;
+    padding: 9px 10px;
+    border-radius: 12px;
+    background-color: #fff;
+    border: 1px solid #00bf6f;
+    margin-top: 10px;
+}
+#footer-btn2 img{
+    vertical-align: middle;
+    
+}
+#footer-btn2 a{
+    text-decoration: none;
+    color: #00a761;
+    margin-right: 50px;
+}
+#social-media{
+    display: flex;
+    justify-content: space-between;
+    color: #000;
+    margin: 20px auto auto 0;
+    width: 100%;
+}
+
+
+
+
+
+
+
 @media (max-width:1200px){
     .navigation-general{
         width: 990px;
@@ -748,6 +847,9 @@ section{
     .newsletter{
         width: 990px;
     }
+    footer{
+        width: 990px;
+    }
 }
 @media (max-width:990px){
     header{
@@ -796,6 +898,12 @@ section{
     }
     .newsletter{
         width: auto;
+    }
+    footer{
+        flex-direction: column;
+    }
+    .social-media{
+        width: 40%;
     }
 }
 @media (max-width:770px){
@@ -884,6 +992,14 @@ section{
     }
     .newsletter{
         display: none;
+    }
+    .footer-links{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 30px;
+    }
+    .social-media{
+        width: 30%;
     }
 
 }
